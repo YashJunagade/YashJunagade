@@ -58,7 +58,7 @@
 
 ### 🌍 Connect with me:
 <p align="center">
-  <a href="https://www.linkedin.com/in/yashjunagade/" target="_blank"><img src="https://img.shields.io/badge/-LinkedIn-0A66C2?style=for-the-badge&logo=LinkedIn&logoColor=white"></a>
+  <a href="https://www.linkedin.com/in/yash-junagade/" target="_blank"><img src="https://img.shields.io/badge/-LinkedIn-0A66C2?style=for-the-badge&logo=LinkedIn&logoColor=white"></a>
   <a href="https://x.com/YashJunagade211" target="_blank"><img src="https://img.shields.io/badge/-Twitter-1DA1F2?style=for-the-badge&logo=Twitter&logoColor=white"></a>
   <a href="https://github.com/YashJunagade" target="_blank"><img src="https://img.shields.io/badge/-GitHub-181717?style=for-the-badge&logo=GitHub&logoColor=white"></a>
 </p>
