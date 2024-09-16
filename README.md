@@ -44,8 +44,9 @@
 ---
 
 ### 📊 GitHub Stats:
+
 <p align="center">
-  <img src="https://github-readme-streak-stats.herokuapp.com/?user=YashJunagade&theme=tokyonight&hide_border=true" alt="GitHub Streak">
+  ![GitHub Streak](./streak-stats.svg)
 </p>
 <p align="center">
   <img src="https://github-readme-stats.vercel.app/api?username=YashJunagade&show_icons=true&theme=tokyonight&hide_border=true" alt="GitHub Stats">
@@ -57,6 +58,7 @@
 ---
 
 ### 🌍 Connect with me:
+
 <p align="center">
   <a href="https://www.linkedin.com/in/yash-junagade/" target="_blank"><img src="https://img.shields.io/badge/-LinkedIn-0A66C2?style=for-the-badge&logo=LinkedIn&logoColor=white"></a>
   <a href="https://x.com/YashJunagade211" target="_blank"><img src="https://img.shields.io/badge/-Twitter-1DA1F2?style=for-the-badge&logo=Twitter&logoColor=white"></a>

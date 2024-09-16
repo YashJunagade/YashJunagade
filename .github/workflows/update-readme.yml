@@ -1,0 +1,27 @@
+name: Update GitHub Streak Stats
+
+on:
+  schedule:
+    - cron: "30 18 * * *" # Runs at 18:30 UTC, which is midnight IST
+
+jobs:
+  update-readme:
+    runs-on: ubuntu-latest
+
+    steps:
+      # Checkout the latest code
+      - name: Checkout Repo
+        uses: actions/checkout@v2
+
+      # Update the README with the latest streak stats image
+      - name: Download Streak Stats
+        run: curl -o streak-stats.svg "https://github-readme-streak-stats.herokuapp.com/?user=YashJunagade&theme=tokyonight&hide_border=true"
+
+      # Commit the updated README with the new image
+      - name: Commit and Push Changes
+        run: |
+          git config --local user.name "GitHub Actions"
+          git config --local user.email "actions@github.com"
+          git add streak-stats.svg
+          git commit -m "Update GitHub Streak Stats"
+          git push
