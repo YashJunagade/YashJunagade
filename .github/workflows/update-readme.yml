@@ -1,8 +1,12 @@
-name: Update GitHub Streak Stats
+name: Update GitHub Stats
 
 on:
+  push: # Trigger on push to test immediately
   schedule:
-    - cron: "30 18 * * *" # Runs at 18:30 UTC, which is midnight IST
+    - cron: "30 18 * * *" # Scheduled for 18:30 UTC (00:00 IST)
+
+permissions:
+  contents: write
 
 jobs:
   update-readme:
@@ -13,15 +17,23 @@ jobs:
       - name: Checkout Repo
         uses: actions/checkout@v2
 
-      # Update the README with the latest streak stats image
+      # Download GitHub Streak Stats
       - name: Download Streak Stats
         run: curl -o streak-stats.svg "https://github-readme-streak-stats.herokuapp.com/?user=YashJunagade&theme=tokyonight&hide_border=true"
 
-      # Commit the updated README with the new image
+      # Download GitHub Stats
+      - name: Download GitHub Stats
+        run: curl -o github-stats.svg "https://github-readme-stats.vercel.app/api?username=YashJunagade&show_icons=true&theme=tokyonight&hide_border=true"
+
+      # Download Top Languages Stats
+      - name: Download Top Languages Stats
+        run: curl -o top-langs.svg "https://github-readme-stats.vercel.app/api/top-langs/?username=YashJunagade&layout=compact&theme=tokyonight&hide_border=true"
+
+      # Commit and Push the updated stats
       - name: Commit and Push Changes
         run: |
           git config --local user.name "GitHub Actions"
           git config --local user.email "actions@github.com"
-          git add streak-stats.svg
-          git commit -m "Update GitHub Streak Stats"
+          git add streak-stats.svg github-stats.svg top-langs.svg
+          git commit -m "Update GitHub Stats"
           git push

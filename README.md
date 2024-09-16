@@ -49,10 +49,10 @@
   <img src="./streak-stats.svg" alt="GitHub Streak">
 </p>
 <p align="center">
-  <img src="https://github-readme-stats.vercel.app/api?username=YashJunagade&show_icons=true&theme=tokyonight&hide_border=true" alt="GitHub Stats">
+  <img src="./github-stats.svg" alt="GitHub Stats">
 </p>
 <p align="center">
-  <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=YashJunagade&layout=compact&theme=tokyonight&hide_border=true" alt="Top Languages">
+  <img src="./top-langs.svg" alt="Top Languages">
 </p>
 
 ---
