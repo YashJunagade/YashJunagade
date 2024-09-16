@@ -46,7 +46,7 @@
 ### 📊 GitHub Stats:
 
 <p align="center">
-  ![GitHub Streak](./streak-stats.svg)
+  <img src="./streak-stats.svg" alt="GitHub Streak">
 </p>
 <p align="center">
   <img src="https://github-readme-stats.vercel.app/api?username=YashJunagade&show_icons=true&theme=tokyonight&hide_border=true" alt="GitHub Stats">
