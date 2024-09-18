@@ -45,6 +45,10 @@
 
 ### 📊 GitHub Stats:
 
+<!-- curl -o streak-stats.svg "https://github-readme-streak-stats.herokuapp.com/?user=YashJunagade&theme=tokyonight&hide_border=true" -->
+<!-- curl -o github-stats.svg "https://github-readme-stats.vercel.app/api?username=YashJunagade&show_icons=true&theme=tokyonight&hide_border=true" -->
+ <!-- curl -o top-langs.svg "https://github-readme-stats.vercel.app/api/top-langs/?username=YashJunagade&layout=compact&theme=tokyonight&hide_border=true" -->
+
 <p align="center">
   <img src="./streak-stats.svg" alt="GitHub Streak">
 </p>
